@@ -1,0 +1,297 @@
+<html>
+<head>
+    <title>
+        Beauty By Solange
+    </title>
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="index.css" />
+
+
+
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <meta name="description" content="">
+          <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+          <meta name="generator" content="Jekyll v3.8.5">
+
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+
+        <nav class="navbar navbar-expand-md static-top">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                        <img src="bbs.png" alt="" width="40" height="40">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            <div class="nav-ex"></div>
+                                <div class="nav-ex"></div>
+                                <div class="nav-ex"></div> 
+                          </button> 
+        
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home
+                                          <span class="sr-only">(current)</span>
+                                        </a>
+                                  </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop
+                              <span class="sr-only">(current)</span>
+                            </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="app.html">Book An Appointment</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+      
+  
+
+          <hr>
+
+<div class="container">
+       
+
+
+
+
+
+<div id='product-component-1572194850531'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'beautybysolange.myshopify.com',
+      storefrontAccessToken: '245c12539ff256898b4f5884de7dfd6c',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '4322726051945',
+        node: document.getElementById('product-component-1572194850531'),
+        moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        },
+        "text-align": "left"
+      },
+      "title": {
+        "font-size": "27px",
+        "color": "#000000"
+      },
+      "button": {
+        "font-weight": "bold",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        ":hover": {
+          "background-color": "#e4883c"
+        },
+        "background-color": "#fd9743",
+        ":focus": {
+          "background-color": "#e4883c"
+        },
+        "border-radius": "17px",
+        "padding-left": "47px",
+        "padding-right": "47px"
+      },
+      "quantityInput": {
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px"
+      },
+      "price": {
+        "font-size": "18px",
+        "color": "#000000"
+      },
+      "compareAt": {
+        "font-size": "15.299999999999999px",
+        "color": "#000000"
+      },
+      "description": {
+        "color": "#000000"
+      }
+    },
+    "layout": "horizontal",
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "description": true
+    },
+    "width": "100%",
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-weight": "bold",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        ":hover": {
+          "background-color": "#e4883c"
+        },
+        "background-color": "#fd9743",
+        ":focus": {
+          "background-color": "#e4883c"
+        },
+        "border-radius": "17px",
+        "padding-left": "47px",
+        "padding-right": "47px"
+      },
+      "quantityInput": {
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-weight": "bold",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        ":hover": {
+          "background-color": "#e4883c"
+        },
+        "background-color": "#fd9743",
+        ":focus": {
+          "background-color": "#e4883c"
+        },
+        "border-radius": "17px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-weight": "bold",
+        "background-color": "#fd9743",
+        ":hover": {
+          "background-color": "#e4883c"
+        },
+        ":focus": {
+          "background-color": "#e4883c"
+        }
+      },
+      "count": {
+        "font-size": "14px"
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+
+
+
+</div>
+
+
+      <div class="container">
+        <br>
+      </div>
+      
+       
+        <!-- FOOTER -->
+        <div class="d-flex flex-column">
+                
+                <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+                  <div class="container text-center">
+                    <small>Copyright &copy; BeautyBySolange</small>
+                  </div>
+                </footer>
+            </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+
+</body>
+
+</html>
